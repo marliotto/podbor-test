@@ -1,0 +1,21 @@
+{
+    "name": "marliotto/podbor-test",
+    "type": "project",
+    "require": {
+        "symfony/process": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marliotto\\PodborTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitaly Gridasov",
+            "email": "vitgridasov@gmail.com"
+        }
+    ]
+}
